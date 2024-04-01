@@ -1,0 +1,26 @@
+{
+  "name": "apptive-discord-notifications",
+  "version": "1.0.0",
+  "description": "동아리 내 디스코드 공지를 위한 간단한 알림 봇",
+  "main": "index.js",
+  "repository": "https://github.com/apptivedev/discord-notifications",
+  "author": "insd47",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc -w",
+    "dev": "NODE_ENV=dev nodemon --watch src/ --delay 500ms --exec ts-node src/index.ts",
+    "start": "NODE_ENV=production node build/index.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.41.1",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "prisma": "^5.11.0"
+  }
+}
