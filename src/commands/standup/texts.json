@@ -1,0 +1,10 @@
+{
+  "ko": {
+    "NAME": "스탠드업",
+    "DESCRIPTION": "스탠드업 회의 공지를 설정합니다"
+  },
+  "en-US": {
+    "NAME": "standup",
+    "DESCRIPTION": "Set up standup meeting notification"
+  }
+}

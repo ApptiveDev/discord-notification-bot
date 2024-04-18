@@ -1,0 +1,16 @@
+{
+  "ko": {
+    "NAME": "관리자등록",
+    "DESCRIPTION": "스탠드업 공지 스케줄의 관리자 역할을 지정합니다.",
+    "OPTION_ROLE_NAME": "역할",
+    "OPTION_ROLE_DESCRIPTION": "관리자로 지정할 역할입니다.",
+    "REPLY_SUCCESS": "${role} 역할이 관리자로 등록되었습니다."
+  },
+  "en-US": {
+    "NAME": "add-manager",
+    "DESCRIPTION": "Register a role as a manager of standup schedule.",
+    "OPTION_ROLE_NAME": "role",
+    "OPTION_ROLE_DESCRIPTION": "The role to be registered as a manager.",
+    "REPLY_SUCCESS": "The role ${role} has been registered as a manager."
+  }
+}

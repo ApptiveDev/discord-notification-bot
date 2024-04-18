@@ -1,0 +1,24 @@
+{
+  "ko": {
+    "NAME": "일시정지",
+    "DESCRIPTION": "스탠드업 스케줄의 일시정지 상태를 설정합니다",
+    "OPTION_NAME_NAME": "이름",
+    "OPTION_NAME_DESCRIPTION": "스케줄의 이름을 입력합니다.",
+    "OPTION_STATE_NAME": "상태",
+    "OPTION_STATE_DESCRIPTION": "일시정지 상태를 설정합니다.",
+    "ERROR_NOT_FOUND": "해당 이름의 스케줄을 찾을 수 없습니다.",
+    "REPLY_PAUSED": "${name} 스케줄이 일시중지되었습니다.",
+    "REPLY_RESUMED": "${name} 스케줄이 재개되었습니다."
+  },
+  "en-US": {
+    "NAME": "pause",
+    "DESCRIPTION": "Sets the pause state of a standup schedule.",
+    "OPTION_NAME_NAME": "name",
+    "OPTION_NAME_DESCRIPTION": "The name of the schedule.",
+    "OPTION_STATE_NAME": "state",
+    "OPTION_STATE_DESCRIPTION": "The state of the schedule.",
+    "ERROR_NOT_FOUND": "The schedule was not found.",
+    "REPLY_PAUSED": "The ${name} schedule has been paused.",
+    "REPLY_RESUMED": "The ${name} schedule has been resumed."
+  }
+}

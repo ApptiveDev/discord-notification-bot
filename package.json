@@ -18,6 +18,7 @@
     "start": "NODE_ENV=production node build/index.js"
   },
   "dependencies": {
+    "@prisma/client": "5.11.0",
     "@supabase/supabase-js": "^2.41.1",
     "discord.js": "^14.14.1",
     "dotenv": "^16.4.5",

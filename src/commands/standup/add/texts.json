@@ -1,0 +1,30 @@
+{
+  "ko": {
+    "NAME": "스탠드업등록",
+    "DESCRIPTION": "스탠드업 공지 스케줄을 등록합니다.",
+    "OPTION_NAME_NAME": "이름",
+    "OPTION_NAME_DESCRIPTION": "스케줄의 이름을 입력합니다.",
+    "OPTION_ROLE_NAME": "역할",
+    "OPTION_ROLE_DESCRIPTION": "공지에 멘션할 역할을 선택합니다.",
+    "OPTION_CHANNEL_NAME": "채널",
+    "OPTION_CHANNEL_DESCRIPTION": "공지할 채널을 선택합니다.",
+    "OPTION_DAY_NAME": "요일",
+    "OPTION_DAY_DESCRIPTION": "스탠드업을 할 요일을 선택합니다.",
+    "ERROR_ALREADY_EXISTS": "동일한 이름의 스케줄이 이미 존재합니다.",
+    "REPLY_SUCCESS": "${name} 스케줄이 등록되었습니다."
+  },
+  "en-US": {
+    "NAME": "add-standup",
+    "DESCRIPTION": "Add a standup schedule.",
+    "OPTION_NAME_NAME": "name",
+    "OPTION_NAME_DESCRIPTION": "The name of the schedule.",
+    "OPTION_ROLE_NAME": "role",
+    "OPTION_ROLE_DESCRIPTION": "The role to mention.",
+    "OPTION_CHANNEL_NAME": "channel",
+    "OPTION_CHANNEL_DESCRIPTION": "The channel to send the standup message.",
+    "OPTION_DAY_NAME": "day",
+    "OPTION_DAY_DESCRIPTION": "The day to do the standup.",
+    "ERROR_ALREADY_EXISTS": "A schedule with the same name already exists.",
+    "REPLY_SUCCESS": "The ${name} schedule has been added."
+  }
+}

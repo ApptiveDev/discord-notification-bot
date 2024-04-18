@@ -14,9 +14,8 @@ datasource db {
   directUrl = env("DIRECT_URL")
 }
 
-model Server {
+model Guild {
   id            String    @id @default(cuid())
-  name          String
   managerRole   String    @unique
 
   createdAt     DateTime  @default(now())
@@ -27,16 +26,17 @@ model Server {
 
 model StandUp {
   id            String    @id @default(cuid())
-  serverId      String
+  guildId       String
   name          String
 
   roleId        String
   channelId     String
+  weekDay       Int
+  paused        Boolean   @default(false)
   authorId      String
-  weekDays      Int[]
 
   createdAt     DateTime  @default(now())
   updatedAt     DateTime  @updatedAt
 
-  server        Server    @relation(fields: [serverId], references: [id])
+  guild         Guild      @relation(fields: [guildId], references: [id])
 }

@@ -1,0 +1,18 @@
+{
+  "ko": {
+    "NAME": "삭제",
+    "DESCRIPTION": "스탠드업 공지 스케줄을 삭제합니다.",
+    "OPTION_NAME_NAME": "이름",
+    "OPTION_NAME_DESCRIPTION": "스케줄의 이름을 입력합니다.",
+    "ERROR_NOT_FOUND": "해당 이름의 스케줄을 찾을 수 없습니다.",
+    "REPLY_SUCCESS": "${name} 스케줄이 삭제되었습니다."
+  },
+  "en-US": {
+    "NAME": "remove",
+    "DESCRIPTION": "Remove a standup schedule.",
+    "OPTION_NAME_NAME": "name",
+    "OPTION_NAME_DESCRIPTION": "The name of the schedule.",
+    "ERROR_NOT_FOUND": "The schedule was not found.",
+    "REPLY_SUCCESS": "The ${name} schedule has been removed."
+  }
+}

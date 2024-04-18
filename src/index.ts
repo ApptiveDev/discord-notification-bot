@@ -1,8 +1,8 @@
 import { Client } from "discord.js";
 
-import config from "./config";
+import config from "./utilities/config";
+import deploy from "./utilities/deploy";
 import commands from "./commands";
-import deploy from "./deploy";
 
 const client = new Client({
   intents: ["Guilds", "GuildMessages", "GuildMembers"],
